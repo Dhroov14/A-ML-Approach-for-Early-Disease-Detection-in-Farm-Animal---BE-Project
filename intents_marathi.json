@@ -1,0 +1,290 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help?",
+        "Hey! Need any information?"
+      ]
+    },
+    {
+      "tag": "lumpy_disease",
+      "patterns": [
+        "What is Lumpy Skin Disease?",
+        "How does Lumpy disease affect cattle?",
+        "What causes Lumpy Skin Disease?",
+        "How can Lumpy disease be treated?"
+      ],
+      "responses": [
+        "Lumpy Skin Disease (LSD) is a viral disease that affects cattle, causing skin nodules, fever, and reduced milk production. It is spread through insects like mosquitoes and ticks.",
+        "Lumpy disease is caused by the Lumpy Skin Disease Virus (LSDV), a member of the Poxviridae family, and spreads mainly through insect bites.",
+        "There is no specific cure for Lumpy Skin Disease, but supportive care includes anti-inflammatory drugs, antibiotics for secondary infections, and vaccination to prevent outbreaks."
+      ]
+    },
+    {
+      "tag": "veterinary_doctors",
+      "patterns": [
+        "How many veterinary doctors are there?",
+        "What is the total number of veterinary doctors in the country?",
+        "How many vets are available for animal healthcare?"
+      ],
+      "responses": [
+        "The number of veterinary doctors varies by country and region. Would you like information about a specific country?",
+        "Veterinary doctor availability depends on location. In many countries, there is a shortage of veterinarians for rural animal healthcare."
+      ]
+    },
+    {
+      "tag": "animal_vaccination",
+      "patterns": [
+        "Why is animal vaccination important?",
+        "Which vaccines are necessary for cattle?",
+        "How often should farm animals be vaccinated?"
+      ],
+      "responses": [
+        "Animal vaccination is crucial for preventing infectious diseases, ensuring livestock health, and improving productivity.",
+        "Common vaccines for cattle include those for Foot-and-Mouth Disease (FMD), Brucellosis, and Lumpy Skin Disease.",
+        "Farm animals should be vaccinated as per veterinary guidelines, typically once or twice a year depending on the disease risk."
+      ]
+    },
+    {
+      "tag": "livestock_nutrition",
+      "patterns": [
+        "What is the best diet for cattle?",
+        "How does nutrition affect livestock health?",
+        "What supplements should be given to farm animals?"
+      ],
+      "responses": [
+        "Cattle should be fed a balanced diet including roughage, grains, protein sources, and essential minerals.",
+        "Proper nutrition enhances livestock immunity, improves milk and meat production, and reduces disease risks.",
+        "Common supplements for farm animals include mineral mixtures, vitamins, and probiotics for better digestion and growth."
+      ]
+    },
+    {
+      "tag": "symptom_entry",
+      "patterns": [
+        "My cow has lumps on its body",
+        "I see swollen nodes on my cattle",
+        "There are wounds and scabs on the cow’s skin",
+        "My cow is not eating properly and has fever",
+        "There's excessive salivation in the cow",
+        "The cow is limping and looks very weak",
+        "My buffalo has skin lesions, is it serious?",
+        "There are circular bumps on the animal’s skin"
+      ],
+      "responses": [
+        "Thanks for sharing the symptoms. This could be Lumpy Skin Disease. I recommend uploading an image for confirmation.",
+        "The symptoms suggest possible LSD infection. Please let me analyze the image of the infected area for better accuracy.",
+        "Your description points towards Lumpy Skin. Please isolate the animal and seek a vet immediately."
+      ]
+    },
+    {
+      "tag": "doubts_about_lumpy",
+      "patterns": [
+        "बोकड रोगातून बरे झाल्यावर माझ्या गायेला पुन्हा संसर्ग होऊ शकतो का?",
+        "हा रोग कायमस्वरूपी दूध उत्पादनावर परिणाम करतो का?",
+        "हे बोकड रोगच आहे की दुसरा कोणता रोग आहे, हे कसे ओळखायचे?",
+        "मला हे प्रकरण अधिकाऱ्यांना सांगणे आवश्यक आहे का?",
+        "माझी इतर जनावरे लक्षणांशिवाय संसर्ग पसरवू शकतात का?",
+        "मी त्वरित उपचार न केल्यास काय होईल?",
+        "बोकड रोगग्रस्त जनावरांसाठी सरकारकडून काही मदत आहे का?",
+        "बरे झाल्यानंतर माझ्या गायेला कायमचे चटके राहतील का?",
+        "हवामानाचा बोकड रोगाच्या प्रसारावर परिणाम होतो का?",
+        "संसर्गित गायेला स्पर्श किंवा हाताळणे सुरक्षित आहे का?"
+      ],
+      "responses": [
+        "Lumpy Skin Disease is a viral infection in cattle caused by the Capripox virus. It spreads through insect bites.",
+        "LSD is contagious among cattle but not harmful to humans. Early detection improves recovery chances.",
+        "Yes, it spreads via mosquitoes, flies, ticks, and contaminated feed or tools. Isolate infected animals.",
+        "Timely treatment and isolation can help most cows recover within 2–4 weeks."
+      ]
+    },
+    {
+      "tag": "first_aid_treatment",
+      "patterns": [
+        "What should I do first if I suspect LSD?",
+        "Any first aid tips before the vet arrives?",
+        "How to treat the wounds of LSD?",
+        "Can I give something at home before going to the doctor?",
+        "Should I isolate the cow immediately?",
+        "How to clean the infected areas?"
+      ],
+      "responses": [
+        "First, isolate the infected animal to avoid spreading. Apply antiseptic to wounds and keep the cow hydrated.",
+        "Clean the skin lesions with antiseptic solution like Betadine and cover with a clean cloth if possible.",
+        "Do not give antibiotics without a vet's advice. Ensure clean water and feed are provided.",
+        "Use fly repellents to keep insects away and reduce spread. Keep the animal in a clean, dry shelter."
+      ]
+    },
+    {
+      "tag": "veterinary_contact",
+      "patterns": [
+        "Can you give me the vet’s number?",
+        "I need a nearby animal doctor urgently",
+        "How can I reach the livestock officer?",
+        "Who should I contact for treatment?",
+        "Any helpline number for cattle diseases?",
+        "Where is the nearest veterinary clinic?"
+      ],
+      "responses": [
+        "Please share your location so I can fetch the nearest veterinary contact for you.",
+        "You can contact the government animal health helpline at 1962 for immediate help.",
+        "For emergency livestock care, reach out to your village’s veterinary officer or Krishi Vigyan Kendra.",
+        "Connecting you to the district veterinary hospital... Please wait while I fetch the details."
+      ]
+    },
+    {
+      "tag": "medications_info",
+      "patterns": [
+        "What medicine should I give to a cow with LSD?",
+        "Is there any vaccine available?",
+        "Can I give antibiotics to my cow?",
+        "Which ointment is good for skin wounds?",
+        "Tell me the dosage of medicine for Lumpy Skin",
+        "Should I inject something for the fever?"
+      ],
+      "responses": [
+        "There is a live-attenuated LSD vaccine available. Please consult a vet before administering.",
+        "Use anti-inflammatory drugs and antibiotics only if prescribed by a licensed veterinarian.",
+        "Topical antiseptics like Betadine can be used on wounds. Avoid self-prescribing injections.",
+        "The veterinarian may prescribe Oxytetracycline, anti-pyretics, or supportive therapy based on severity."
+      ]
+    },
+    {
+      "tag": "precautionary_measures",
+      "patterns": [
+        "How to prevent Lumpy Skin in other cows?",
+        "What precautions should I take in the farm?",
+        "Is vaccination important for prevention?",
+        "How to stop the disease from spreading?",
+        "What feed is good during LSD?",
+        "How to improve cow immunity?"
+      ],
+      "responses": [
+        "Vaccinate healthy animals and avoid introducing new animals without quarantine.",
+        "Maintain hygiene, control flies/mosquitoes, and disinfect sheds regularly.",
+        "Feed the cow with high-protein and vitamin-rich diet to support immunity.",
+        "Isolate infected animals for at least 28 days and use separate tools for handling them."
+      ]
+    },
+    {
+      "tag": "disease_transmission",
+      "patterns": [
+        "How does LSD spread between animals?",
+        "Can it pass from one cow to another?",
+        "Do flies and mosquitoes carry Lumpy disease?",
+        "How can the infection reach my cattle?"
+      ],
+      "responses": [
+        "Lumpy Skin Disease spreads mainly through biting insects such as mosquitoes, flies, and ticks. It can also spread via contaminated feed, tools, and direct contact.",
+        "Yes, LSD is highly contagious among cattle, especially during the monsoon when insect populations rise.",
+        "To prevent spread, control insects and isolate affected animals immediately."
+      ]
+    },
+    {
+      "tag": "affected_species",
+      "patterns": [
+        "Does LSD affect buffaloes?",
+        "Is it only in cows?",
+        "Are goats or sheep at risk of Lumpy disease?",
+        "Can bulls get infected too?"
+      ],
+      "responses": [
+        "Lumpy Skin Disease primarily affects cattle such as cows and bulls. Buffaloes can occasionally show symptoms but are less susceptible.",
+        "Goats and sheep are generally not affected by LSD, but it's best to monitor them if in close proximity.",
+        "The disease is most dangerous for cows, especially in young or weak animals."
+      ]
+    },
+    {
+      "tag": "recovery_time",
+      "patterns": [
+        "How long does it take for a cow to recover from LSD?",
+        "Will my cow be okay after treatment?",
+        "What’s the recovery period for Lumpy Skin Disease?",
+        "How many days does it take to heal?"
+      ],
+      "responses": [
+        "Most cattle recover from LSD within 2 to 4 weeks with proper care.",
+        "Recovery time may vary based on the cow’s immunity and care provided. Early detection helps shorten recovery.",
+        "Ensure clean environment, good nutrition, and veterinary care for a full recovery."
+      ]
+    },
+    {
+      "tag": "milk_and_meat_safety",
+      "patterns": [
+        "Can I consume milk from an infected cow?",
+        "Is it safe to drink milk if the cow has LSD?",
+        "Should I stop selling milk from my infected cows?",
+        "Can the meat of an infected animal be eaten?"
+      ],
+      "responses": [
+        "Milk from infected cows should not be consumed unless advised by a veterinarian. Boiling does not eliminate all risks.",
+        "Meat from LSD-affected cattle is not recommended for consumption. Please follow government advisories.",
+        "For safety and public health, avoid selling or consuming products from infected animals."
+      ]
+    },
+    {
+      "tag": "quarantine_procedure",
+      "patterns": [
+        "How long should I isolate the cow?",
+        "What is the quarantine period for LSD?",
+        "Should I keep the cow away from the herd?",
+        "Can I use the same tools for all animals?"
+      ],
+      "responses": [
+        "Infected animals should be isolated for at least 28 days to avoid transmission.",
+        "Yes, always use separate feeding tools, water containers, and cleaning gear for infected animals.",
+        "Avoid contact between infected and healthy animals. Disinfect shared areas regularly."
+      ]
+    },
+    {
+      "tag": "environmental_cleaning",
+      "patterns": [
+        "How do I clean the cow shed after an infection?",
+        "What disinfectant should I use?",
+        "How often should I clean the area?",
+        "Should I burn infected bedding?"
+      ],
+      "responses": [
+        "Disinfect the cow shed using lime or bleaching powder solution. Do it daily during outbreak.",
+        "Burn or properly dispose of infected bedding and manure to avoid recontamination.",
+        "Keep the shed dry and well-ventilated. Use fly repellents to keep vectors away."
+      ]
+    },
+    {
+      "tag": "food_during_recovery",
+      "patterns": [
+        "What food is best for a recovering cow?",
+        "Can I give green fodder to an infected cow?",
+        "What should I feed my cow during LSD recovery?",
+        "Any supplements to improve healing?"
+      ],
+      "responses": [
+        "During recovery, feed the cow soft green fodder, grains, jaggery water, and vitamin supplements.",
+        "Include mineral mix, salt licks, and plenty of clean water. Avoid spoiled or hard-to-digest feed.",
+        "Consult a vet for appropriate supplements to support immune and digestive health."
+      ]
+    },
+    {
+      "tag": "post_disease_care",
+      "patterns": [
+        "What to do after my cow recovers?",
+        "Can I mix the cow back with others after recovery?",
+        "Is there anything to monitor after recovery?",
+        "How do I prevent recurrence of LSD?"
+      ],
+      "responses": [
+        "Continue giving nutritious feed and monitor the cow for any new symptoms.",
+        "Wait for 28 days before reintroducing the cow to the herd. Ensure it's fully healed.",
+        "Disinfect the shed again and watch out for flies or ticks. Vaccination of the herd is recommended to prevent recurrence."
+      ]
+    }
+  ]
+}
