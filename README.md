@@ -1,0 +1,2 @@
+# A-ML-Approach-for-Early-Disease-Detection-in-Farm-Animal---BE-Project
+Predictive Veterinary Care is a machine learning-based system for early detection of diseases in farm animals. By combining symptom input and image analysis, this tool helps farmers quickly identify risky health conditions such as Mastitis and Lumpy Skin Disease, reducing economic losses and improving animal welfare through timely.
